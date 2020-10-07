@@ -1,0 +1,37 @@
+# QQ Account Config
+qq:
+  account: 123456789
+  password: "123456789"
+# Bot Config
+bot:
+  # Privilege account, who has the highest authority
+  # privilege: 123456789
+
+  # Command Prefix, also support array format
+  # Tip: 'At' is an special symbol which mean it will be triggered when bot is at;
+  commandPrefix: /
+  # commandPrefix: [/, At] # Also
+
+# Redis Config
+redis:
+  password: password
+  port: 6379 # optional, expose the redis port
+
+# Web Interface
+web:
+  host: localhost
+  port: 8080 # optional, expose the web port
+
+# MiraiAPTHttp Config
+api:
+  authKey: "1234567890"
+  port: 8081 # Optional, expose the api port
+
+# remote:
+#   host: localhost
+
+# Proxy
+# proxy:
+#   protocol: socks5
+#   host: localhost
+#   port: 7890
