@@ -29,7 +29,7 @@ mirai-bot build
 ```
 
 ```bash
-mirai-bot start -d
+mirai-bot run -d
 ```
 
 ## Other issues
@@ -64,7 +64,7 @@ in the `config.yml` of development environment
 and start with
 
 ```bash
-mirai-bot start --dev
+mirai-bot run --dev
 ```
 
 Also you can use 
